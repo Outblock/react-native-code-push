@@ -1,7 +1,7 @@
 {
-  "name": "@revopush/react-native-code-push",
-  "version": "1.2.0",
-  "description": "React Native plugin for the CodePush service",
+  "name": "@outblock/react-native-code-push",
+  "version": "1.2.1",
+  "description": "React Native plugin for the CodePush service (Fixed auto-linking for @outblock)",
   "main": "CodePush.js",
   "typings": "typings/react-native-code-push.d.ts",
   "homepage": "https://revopush.org/",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/revopush/react-native-code-push"
+    "url": "https://github.com/outblock/react-native-code-push"
   },
   "dependencies": {
     "code-push": "4.2.3",
@@ -75,8 +75,8 @@
       ]
     },
     "commands": {
-      "postlink": "node node_modules/@revopush/react-native-code-push/scripts/postlink/run",
-      "postunlink": "node node_modules/@revopush/react-native-code-push/scripts/postunlink/run"
+      "postlink": "node node_modules/@outblock/react-native-code-push/scripts/postlink/run",
+      "postunlink": "node node_modules/@outblock/react-native-code-push/scripts/postunlink/run"
     }
   }
 }

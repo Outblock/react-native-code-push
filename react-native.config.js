@@ -4,7 +4,11 @@ module.exports = {
             android: {
                 packageInstance:
                     "CodePush.getInstance(getResources().getString(R.string.CodePushDeploymentKey), getApplicationContext(), BuildConfig.DEBUG)",
-                sourceDir: './android/app',
+                sourceDir: './android',
+                packageImportPath: 'import com.microsoft.codepush.react.CodePush;',
+            },
+            ios: {
+                sharedLibraries: ['libz']
             }
         }
     }
