@@ -88,7 +88,7 @@ As new core components are released, which support referencing assets, we'll upd
 After you've created an account on [Revopush](https://app.revopush.org/register), you can start CodePush-ifying your React Native app by running the following command from within your app's root directory:
 
 ```shell
-npm install --save @revopush/react-native-code-push
+npm install --save @outblock/react-native-code-push
 ```
 
 As with all other React Native plugins, the integration experience is different for iOS and Android, so perform the following setup steps depending on which platform(s) you are targeting. Note, if you are targeting both platforms it is recommended to create separate CodePush applications for each platform.
@@ -114,7 +114,7 @@ The simplest way to do this is to "CodePush-ify" your app's root component. To d
   * For class component
 
     ```javascript
-    import codePush from "@revopush/react-native-code-push";
+    import codePush from "@outblock/react-native-code-push";
 
     class MyApp extends Component {
     }
@@ -125,7 +125,7 @@ The simplest way to do this is to "CodePush-ify" your app's root component. To d
   * For functional component
 
     ```javascript
-    import codePush from "@revopush/react-native-code-push";
+    import codePush from "@outblock/react-native-code-push";
 
     let MyApp: () => React$Node = () => {
     }
@@ -140,7 +140,7 @@ The simplest way to do this is to "CodePush-ify" your app's root component. To d
   * For class component
 
     ```javascript
-    import codePush from "@revopush/react-native-code-push";
+    import codePush from "@outblock/react-native-code-push";
 
     @codePush
     class MyApp extends Component {
@@ -150,7 +150,7 @@ The simplest way to do this is to "CodePush-ify" your app's root component. To d
   * For functional component
 
     ```javascript
-    import codePush from "@revopush/react-native-code-push";
+    import codePush from "@outblock/react-native-code-push";
 
     const MyApp: () => React$Node = () => {
     }

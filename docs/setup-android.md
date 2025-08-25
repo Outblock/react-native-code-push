@@ -12,7 +12,7 @@ In order to integrate CodePush into your Android project, please perform the fol
 
     ```gradle
     ...
-    apply from: "../../node_modules/@revopush/react-native-code-push/android/codepush.gradle"
+    apply from: "../../node_modules/@outblock/react-native-code-push/android/codepush.gradle"
     ...
     ```
 
